@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src: url(fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+main {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  font-family: "Roboto-Black";
+  font-size: 20px;
+  color: white;
+  background-color: goldenrod;
+  padding: 8px 25px;
+  border: 1px solid goldenrod;
+  border-radius: 8px;
+}
+
+button:hover {
+  color: goldenrod;
+  background-color: white;
+  cursor: pointer;
+}
+
+div {
+  margin-top: 5%;
+  text-align: center;
+}
+
+div h3 {
+  font-family: "Roboto-BlackItalic";
+}
+
+div p {
+  font-family: "Roboto-Regular";
+}
+
+div b {
+  color: goldenrod;
+}
+
+.round_result_p {
+  color: #009783;
+  font-weight: bold;
+}
